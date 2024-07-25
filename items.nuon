@@ -1,0 +1,64 @@
+# Below are arrays of (probably) modded items that shall receive their
+# relevant CIT renaming capabilities. The adding logic is fairly trivial:
+# If the original file contains any items that look like pickaxes, the
+# script will append items from `pickaxes` to the list of supported items.
+# Same logic takes place for swords, axes and other types of gear.
+
+# You should add the items that you want CIT renaming support for to these lists.
+# Doesn't get much more simple than this, however some examples are still included.
+
+{
+    pickaxes: [
+        # EXAMPLE:
+        # "gnumus:gnumus_pickaxe"
+        # "gnumus:vintage_gnumus_pickaxe"
+        # "alexsmobs:ghostly_pickaxe"
+        # "thermal:flux_drill"
+    ]
+
+    axes: [
+        # EXAMPLE:
+        # "born_in_chaos_v1:great_reaper_axe"
+        # "born_in_chaos_v1:wood_splitter_axe"
+    ]
+
+    swords: [
+        
+    ]
+
+    shovels: [
+        
+    ]
+
+    hoes: [
+        
+    ]
+
+    helmets: [
+        
+    ]
+
+    chestplates: [
+        
+    ]
+
+    leggings: [
+
+    ]
+
+    boots: [
+        
+    ]
+
+    # INFO: Items here will be REMOVED from any `items=` arrays in the pack's files,
+    # making it impossible to change their textures by renaming the item. This is a
+    # workaround for packs that may contain items from future versions of Minecraft.
+    # Different CIT implementations probably handle the case of "unknown" items in
+    # different ways, but I know for a fact such "unknown" items may result in the
+    # `.properties` file being skipped as a whole, with the only way around being
+    # removing the troublesome item from it. This array is for those items.
+    blacklisted_items: [
+        # EXAMPLE:
+        # minecraft:mace
+    ]
+}
