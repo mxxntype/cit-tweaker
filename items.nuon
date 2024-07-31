@@ -8,6 +8,18 @@
 # Doesn't get much more simple than this, however some examples are still included.
 
 {
+    swords: [
+        
+    ]
+
+    bows: [
+        
+    ]
+
+    crossbows: [
+        
+    ]
+
     pickaxes: [
         # EXAMPLE:
         # "gnumus:gnumus_pickaxe"
@@ -20,10 +32,6 @@
         # EXAMPLE:
         # "born_in_chaos_v1:great_reaper_axe"
         # "born_in_chaos_v1:wood_splitter_axe"
-    ]
-
-    swords: [
-        
     ]
 
     shovels: [

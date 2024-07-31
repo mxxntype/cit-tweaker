@@ -57,6 +57,18 @@ def main [
                 $modified = true
             }
 
+            if ($items | any {|item| $item | str contains "_bow"}) {
+                print $"  (ansi gb)Adding(ansi reset) $bows to (ansi yellow)($relpath)(ansi reset)"
+                $items = ($items | append $data.bows)
+                $modified = true
+            }
+
+            if ($items | any {|item| $item | str contains "_crossbow"}) {
+                print $"  (ansi gb)Adding(ansi reset) $crossbows to (ansi yellow)($relpath)(ansi reset)"
+                $items = ($items | append $data.crossbows)
+                $modified = true
+            }
+
             if ($items | any {|item| $item | str contains "_pickaxe"}) {
                 print $"  (ansi gb)Adding(ansi reset) $pickaxes to (ansi yellow)($relpath)(ansi reset)"
                 $items = ($items | append $data.pickaxes)
