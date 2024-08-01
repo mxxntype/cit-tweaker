@@ -9,15 +9,96 @@
 
 {
     swords: [
-        
+        mythicmetals:adamantite_sword
+        mythicmetals:aquarium_sword
+        mythicmetals:banglum_sword
+        mythicmetals:bronze_sword
+        mythicmetals:carmot_sword
+        mythicmetals:celestium_sword
+        mythicmetals:copper_sword
+        mythicmetals:durasteel_sword
+        mythicmetals:hallowed_sword
+        mythicmetals:kyber_sword
+        mythicmetals:legendary_banglum_sword
+        mythicmetals:metallurgium_sword
+        mythicmetals:midas_gold_sword
+        mythicmetals:mythril_sword
+        mythicmetals:orichalcum_sword
+        mythicmetals:osmium_sword
+        mythicmetals:palladium_sword
+        mythicmetals:prometheum_sword
+        mythicmetals:quadrillum_sword
+        mythicmetals:runite_sword
+        mythicmetals:star_platinum_sword
+        mythicmetals:steel_sword
+        mythicmetals:stormyx_sword
+        mythicmetals:tidesinger_sword
+
+        mythicmetals:gilded_midas_gold_sword
+        mythicmetals:royal_midas_gold_sword
+        mythicmetals:red_aegis_sword   # "Blade of the Aegis"
+        mythicmetals:white_aegis_sword # "Sword of the Aegis"
+
+        minecells:assassins_dagger
+        minecells:balanced_blade
+        minecells:blood_sword
+        minecells:broadsword
+        minecells:crowbar
+        minecells:cursed_sword
+        minecells:flint
+        minecells:hattoris_katana
+        minecells:nutcracker
+        minecells:spite_sword
     ]
 
     bows: [
-        
+        archers:composite_longbow
+        archers:mechanic_shortbow
+        archers:netherite_longbow
+        archers:netherite_shortbow
+        archers:royal_longbow
+
+        minecells:bow_and_endless_quiver
+        minecells:ice_bow
+        minecells:infantry_bow
+        minecells:marksmans_bow
+        minecells:multiple_nocks_bow
+        minecells:quick_bow
     ]
 
     crossbows: [
-        
+        archers:heavy_crossbow
+        archers:netherite_heavy_crossbow
+        archers:netherite_rapid_crossbow
+        archers:rapid_crossbow
+
+        minecells:explosive_crossbow
+        minecells:heavy_crossbow
+    ]
+
+    wands: [
+        paladins:acolyte_wand
+        paladins:holy_wand
+        paladins:diamond_holy_wand
+        paladins:netherite_holy_wand
+        paladins:holy_staff
+        paladins:diamond_holy_staff
+        paladins:netherite_holy_staff
+
+        wizards:staff_arcane
+        wizards:staff_fire
+        wizards:staff_frost
+        wizards:staff_netherite_arcane
+        wizards:staff_netherite_fire
+        wizards:staff_netherite_frost
+        wizards:staff_wizard
+        wizards:wand_arcane
+        wizards:wand_fire
+        wizards:wand_frost
+        wizards:wand_netherite_arcane
+        wizards:wand_netherite_fire
+        wizards:wand_netherite_frost
+        wizards:wand_wizard
     ]
 
     pickaxes: [
@@ -26,36 +107,224 @@
         # "gnumus:vintage_gnumus_pickaxe"
         # "alexsmobs:ghostly_pickaxe"
         # "thermal:flux_drill"
+
+        mythicmetals:adamantite_pickaxe
+        mythicmetals:aquarium_pickaxe
+        mythicmetals:banglum_pickaxe
+        mythicmetals:bronze_pickaxe
+        mythicmetals:carmot_pickaxe
+        mythicmetals:celestium_pickaxe
+        mythicmetals:copper_pickaxe
+        mythicmetals:durasteel_pickaxe
+        mythicmetals:hallowed_pickaxe
+        mythicmetals:kyber_pickaxe
+        mythicmetals:legendary_banglum_pickaxe
+        mythicmetals:metallurgium_pickaxe
+        mythicmetals:midas_gold_pickaxe
+        mythicmetals:mythril_pickaxe
+        mythicmetals:orichalcum_pickaxe
+        mythicmetals:osmium_pickaxe
+        mythicmetals:palladium_pickaxe
+        mythicmetals:prometheum_pickaxe
+        mythicmetals:quadrillum_pickaxe
+        mythicmetals:runite_pickaxe
+        mythicmetals:star_platinum_pickaxe
+        mythicmetals:steel_pickaxe
+        mythicmetals:stormyx_pickaxe
+        mythicmetals:tidesinger_pickaxe
     ]
 
     axes: [
         # EXAMPLE:
         # "born_in_chaos_v1:great_reaper_axe"
         # "born_in_chaos_v1:wood_splitter_axe"
+
+        mythicmetals:adamantite_axe
+        mythicmetals:aquarium_axe
+        mythicmetals:banglum_axe
+        mythicmetals:bronze_axe
+        mythicmetals:carmot_axe
+        mythicmetals:celestium_axe
+        mythicmetals:copper_axe
+        mythicmetals:durasteel_axe
+        mythicmetals:hallowed_axe
+        mythicmetals:kyber_axe
+        mythicmetals:legendary_banglum_axe
+        mythicmetals:metallurgium_axe
+        mythicmetals:midas_gold_axe
+        mythicmetals:mythril_axe
+        mythicmetals:orichalcum_axe
+        mythicmetals:osmium_axe
+        mythicmetals:palladium_axe
+        mythicmetals:prometheum_axe
+        mythicmetals:quadrillum_axe
+        mythicmetals:runite_axe
+        mythicmetals:star_platinum_axe
+        mythicmetals:steel_axe
+        mythicmetals:stormyx_axe
+        mythicmetals:tidesinger_axe
     ]
 
     shovels: [
-        
+        mythicmetals:adamantite_shovel
+        mythicmetals:aquarium_shovel
+        mythicmetals:banglum_shovel
+        mythicmetals:bronze_shovel
+        mythicmetals:carmot_shovel
+        mythicmetals:celestium_shovel
+        mythicmetals:copper_shovel
+        mythicmetals:durasteel_shovel
+        mythicmetals:hallowed_shovel
+        mythicmetals:kyber_shovel
+        mythicmetals:legendary_banglum_shovel
+        mythicmetals:metallurgium_shovel
+        mythicmetals:midas_gold_shovel
+        mythicmetals:mythril_shovel
+        mythicmetals:orichalcum_shovel
+        mythicmetals:osmium_shovel
+        mythicmetals:palladium_shovel
+        mythicmetals:prometheum_shovel
+        mythicmetals:quadrillum_shovel
+        mythicmetals:runite_shovel
+        mythicmetals:star_platinum_shovel
+        mythicmetals:steel_shovel
+        mythicmetals:stormyx_shovel
+        mythicmetals:tidesinger_shovel
     ]
 
     hoes: [
-        
+        mythicmetals:adamantite_hoe
+        mythicmetals:aquarium_hoe
+        mythicmetals:banglum_hoe
+        mythicmetals:bronze_hoe
+        mythicmetals:carmot_hoe
+        mythicmetals:celestium_hoe
+        mythicmetals:copper_hoe
+        mythicmetals:durasteel_hoe
+        mythicmetals:hallowed_hoe
+        mythicmetals:kyber_hoe
+        mythicmetals:legendary_banglum_hoe
+        mythicmetals:metallurgium_hoe
+        mythicmetals:midas_gold_hoe
+        mythicmetals:mythril_hoe
+        mythicmetals:orichalcum_hoe
+        mythicmetals:osmium_hoe
+        mythicmetals:palladium_hoe
+        mythicmetals:prometheum_hoe
+        mythicmetals:quadrillum_hoe
+        mythicmetals:runite_hoe
+        mythicmetals:star_platinum_hoe
+        mythicmetals:steel_hoe
+        mythicmetals:stormyx_hoe
+        mythicmetals:tidesinger_hoe
     ]
 
     helmets: [
-        
+        mythicmetals:adamantite_helmet
+        mythicmetals:aquarium_helmet
+        mythicmetals:banglum_helmet
+        mythicmetals:bronze_helmet
+        mythicmetals:carmot_helmet
+        mythicmetals:celestium_helmet
+        mythicmetals:copper_helmet
+        mythicmetals:durasteel_helmet
+        mythicmetals:hallowed_helmet
+        mythicmetals:kyber_helmet
+        mythicmetals:legendary_banglum_helmet
+        mythicmetals:metallurgium_helmet
+        mythicmetals:midas_gold_helmet
+        mythicmetals:mythril_helmet
+        mythicmetals:orichalcum_helmet
+        mythicmetals:osmium_helmet
+        mythicmetals:palladium_helmet
+        mythicmetals:prometheum_helmet
+        mythicmetals:quadrillum_helmet
+        mythicmetals:runite_helmet
+        mythicmetals:star_platinum_helmet
+        mythicmetals:steel_helmet
+        mythicmetals:stormyx_helmet
+        mythicmetals:tidesinger_helmet
     ]
 
     chestplates: [
-        
+        mythicmetals:adamantite_chestplate
+        mythicmetals:aquarium_chestplate
+        mythicmetals:banglum_chestplate
+        mythicmetals:bronze_chestplate
+        mythicmetals:carmot_chestplate
+        mythicmetals:celestium_chestplate
+        mythicmetals:copper_chestplate
+        mythicmetals:durasteel_chestplate
+        mythicmetals:hallowed_chestplate
+        mythicmetals:kyber_chestplate
+        mythicmetals:legendary_banglum_chestplate
+        mythicmetals:metallurgium_chestplate
+        mythicmetals:midas_gold_chestplate
+        mythicmetals:mythril_chestplate
+        mythicmetals:orichalcum_chestplate
+        mythicmetals:osmium_chestplate
+        mythicmetals:palladium_chestplate
+        mythicmetals:prometheum_chestplate
+        mythicmetals:quadrillum_chestplate
+        mythicmetals:runite_chestplate
+        mythicmetals:star_platinum_chestplate
+        mythicmetals:steel_chestplate
+        mythicmetals:stormyx_chestplate
+        mythicmetals:tidesinger_chestplate
     ]
 
     leggings: [
-
+        mythicmetals:adamantite_leggings
+        mythicmetals:aquarium_leggings
+        mythicmetals:banglum_leggings
+        mythicmetals:bronze_leggings
+        mythicmetals:carmot_leggings
+        mythicmetals:celestium_leggings
+        mythicmetals:copper_leggings
+        mythicmetals:durasteel_leggings
+        mythicmetals:hallowed_leggings
+        mythicmetals:kyber_leggings
+        mythicmetals:legendary_banglum_leggings
+        mythicmetals:metallurgium_leggings
+        mythicmetals:midas_gold_leggings
+        mythicmetals:mythril_leggings
+        mythicmetals:orichalcum_leggings
+        mythicmetals:osmium_leggings
+        mythicmetals:palladium_leggings
+        mythicmetals:prometheum_leggings
+        mythicmetals:quadrillum_leggings
+        mythicmetals:runite_leggings
+        mythicmetals:star_platinum_leggings
+        mythicmetals:steel_leggings
+        mythicmetals:stormyx_leggings
+        mythicmetals:tidesinger_leggings
     ]
 
     boots: [
-        
+        mythicmetals:adamantite_boots
+        mythicmetals:aquarium_boots
+        mythicmetals:banglum_boots
+        mythicmetals:bronze_boots
+        mythicmetals:carmot_boots
+        mythicmetals:celestium_boots
+        mythicmetals:copper_boots
+        mythicmetals:durasteel_boots
+        mythicmetals:hallowed_boots
+        mythicmetals:kyber_boots
+        mythicmetals:legendary_banglum_boots
+        mythicmetals:metallurgium_boots
+        mythicmetals:midas_gold_boots
+        mythicmetals:mythril_boots
+        mythicmetals:orichalcum_boots
+        mythicmetals:osmium_boots
+        mythicmetals:palladium_boots
+        mythicmetals:prometheum_boots
+        mythicmetals:quadrillum_boots
+        mythicmetals:runite_boots
+        mythicmetals:star_platinum_boots
+        mythicmetals:steel_boots
+        mythicmetals:stormyx_boots
+        mythicmetals:tidesinger_boots
     ]
 
     # INFO: Items here will be REMOVED from any `items=` arrays in the pack's files,
@@ -68,5 +337,6 @@
     blacklisted_items: [
         # EXAMPLE:
         # minecraft:mace
+        archers:mechanical_shortbow
     ]
 }
